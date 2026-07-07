@@ -1,0 +1,35 @@
+.products_grid_2 {
+  display: none;
+  
+
+    flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.load_more_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  width: 100%;
+}
+
+.btn_load_more {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.products_grid_2 img{
+    width: 345px;
+    height: 457px;
+}
